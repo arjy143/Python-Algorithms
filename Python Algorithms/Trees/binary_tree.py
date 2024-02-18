@@ -1,5 +1,7 @@
-import sys
-sys.path.append("C:\\Users\\z004u6uz\\source\\repos\\Python Algorithms\\")
+# To get this to work you might need the following code to add a new path:
+# import sys
+# sys.path.append("C:\\insert\\path\\to\\Python Algorithms\\")
+
 from Stacks_and_Queues.stack import Stack  
 from Stacks_and_Queues.queue import Queue  
 
@@ -99,10 +101,10 @@ class BinaryNode():
         print()
 
 
-tree = BinaryNode(5)
-tree.left = BinaryNode(3)
-tree.right = BinaryNode(6)
-tree.left.left = BinaryNode(2)
+# tree = BinaryNode(5)
+# tree.left = BinaryNode(3)
+# tree.right = BinaryNode(6)
+# tree.left.left = BinaryNode(2)
 
 # tree.breadth_first_search()
 # output: 5 3 6 2
